@@ -7,7 +7,7 @@ title_star = "Canopus"
 star = 2111805 #ASCC number
 
 #import calibrated light curve taken by the South African eastern camera
-filename = '/data2/sanna/FitsSAE/2111805SAE_detrended.fits'
+filename = '/data2/sanna/FitsSAE/'+str(star)+'SAE_detrended.fits'
 data = pf.getdata(filename)
 
 #plot the light curve
